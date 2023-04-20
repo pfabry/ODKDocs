@@ -2,6 +2,8 @@ id: ODKDocs
 title: ODK test documentation
 github_org: pfabry
 repo: ODKDocs
+documentation:
+  documentation_system: mkdocs
 release_artefacts:
   - base
   - full
