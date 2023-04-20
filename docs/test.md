@@ -4,7 +4,7 @@ This is a test page for documentation.
 
 First test of image
 
-![Screenshot](img/test_image1.jpg)
+![Screenshot](img/test_image1.JPG)
 
 
 Second test of image

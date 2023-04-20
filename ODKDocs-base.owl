@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ODKDocs/ODKDocs-base.owl#"
      xml:base="http://purl.obolibrary.org/obo/ODKDocs/ODKDocs-base.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -27,6 +28,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -71,10 +78,50 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ODKDOCS_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ODKDOCS_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/ODKDOCS_0000001 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/ODKDOCS_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process that is a service.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/ODKDOCS_0000002 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/ODKDOCS_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some entities.</obo:IAO_0000115>
+        <rdfs:label>informational entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/ODKDOCS_0000003 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/ODKDOCS_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An object whitout a specified purpose.</obo:IAO_0000115>
+        <rdfs:label>bidule</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
