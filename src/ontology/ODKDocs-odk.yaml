@@ -1,0 +1,15 @@
+id: ODKDocs
+title: ODK test documentation
+github_org: pfabry
+repo: ODKDocs
+release_artefacts:
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+import_group:
+  products:
+    - id: bfo
+      module_type: mirror
+robot_java_args: "-Xmx8G"
