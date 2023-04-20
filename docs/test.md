@@ -4,6 +4,4 @@
 
 Welcome to the ODKDOCS documentation!
 
-You can find a test page for documentation [here](test.md).
-
 You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
