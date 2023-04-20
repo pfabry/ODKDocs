@@ -1,7 +1,12 @@
 # ODKDOCS Ontology Documentation
 
-[//]: # "This file is meant to be edited by the ontology maintainer."
+This is a test page for documentation.
 
-Welcome to the ODKDOCS documentation!
+First test of image
 
-You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
+![Screenshot](img/test_image1.jpg)
+
+
+Second test of image
+
+![Screenshot](img/test_image2.png)
